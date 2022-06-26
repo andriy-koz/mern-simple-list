@@ -1,8 +1,7 @@
 import mongoose from "mongoose";
 
 const itemSchema = mongoose.Schema({
-  value: String,
-  id: String
+  value: String
 });
 
 const ListItem = mongoose.model("ListItem", itemSchema);
